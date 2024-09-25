@@ -127,6 +127,34 @@ section {
     text-align: center;
 }
 
+.about h2 {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.about-section {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-section img {
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+}
+
+@media(max-width: 772px) {
+    .about-section {
+        display: block;
+    }
+
+    .about h2 {
+        text-align: center;
+    }
+}
+
 .projects .project-list {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
